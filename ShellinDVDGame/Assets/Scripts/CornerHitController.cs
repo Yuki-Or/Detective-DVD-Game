@@ -17,7 +17,7 @@ public class CornerHitController : MonoBehaviour
         
         if (cornerHitText != null)
         {
-            cornerHitText.text = "Corner Hits: " + cornerHitCount;
+            cornerHitText.text = "角ヒット: " + cornerHitCount;
         }
         Debug.Log("Corner hits: " + cornerHitCount);
     }
