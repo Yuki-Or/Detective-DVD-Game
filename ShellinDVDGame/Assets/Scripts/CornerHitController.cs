@@ -13,6 +13,8 @@ public class CornerHitController : MonoBehaviour
     public void AddCornerHit()
     {
         cornerHitCount++;
+        GameData.cornerHitCount = cornerHitCount;
+        
         if (cornerHitText != null)
         {
             cornerHitText.text = "Corner Hits: " + cornerHitCount;
