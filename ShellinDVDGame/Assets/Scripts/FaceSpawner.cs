@@ -7,8 +7,8 @@ public class FaceSpawner : MonoBehaviour
     public GameObject facePrefab;
     public Transform spawnParent;
     private Vector2 spawnPosition;
-    private float spawnDelay = 5f;
-    private float secondSpawnDelay = 8f;
+    private float spawnDelay = 8f;
+    private float secondSpawnDelay = 63f;
 
     private float minX, maxX, minY, maxY;
 

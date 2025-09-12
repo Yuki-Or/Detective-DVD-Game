@@ -9,6 +9,11 @@ public class TimerController : MonoBehaviour
 
     void Update()
     {
+        if (!CountDown.isFinished)
+        {
+            return;
+        }
+        
         GameData.elapsedTime += Time.deltaTime;
 
         int minutes = Mathf.FloorToInt(GameData.elapsedTime / 60f);
